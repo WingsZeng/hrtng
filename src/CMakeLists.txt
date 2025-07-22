@@ -3,7 +3,8 @@ project(hrtng)
 
 #run ccmake to change IDASDK_VER
 SET(IDASDK_VER "91" CACHE STRING "91" )
-SET(IDASDK_DIR ${CMAKE_SOURCE_DIR}/../../idasdk${IDASDK_VER})
+SET(IDASDK_DIR "${CMAKE_SOURCE_DIR}/../../idasdk${IDASDK_VER}"
+  CACHE PATH "Path to the IDA SDK directory")
 MESSAGE("${PROJECT_NAME}")
 MESSAGE("Using IDA SDK dir: ${IDASDK_DIR}")
 MESSAGE("-------------------")
