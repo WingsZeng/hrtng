@@ -421,7 +421,7 @@ void apihashes_init()
 	static int64 basis = 0;
 	static int64 prime = 0;
 	char buf[4096];
-	getsysfile(buf, 4096, "apilist.txt", PLG_SUBDIR);
+	getsysfile(buf, 4096, "apilist.txt", PLG_SUBDIR"/hrtng/bin/plugins/");
 	qstring format =
 		"STARTITEM 1\n"
 		//title
