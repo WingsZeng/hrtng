@@ -2,7 +2,7 @@
   "IDAMetadataDescriptorVersion": 1,
   "plugin": {
     "name": "hrtng",
-    "entryPoint": "hrtng",
+    "entryPoint": "build/hrtng",
     "categories": ["decompilation", "deobfuscation", "malware-analysis"],
     "logoPath": "doc/logo.jpg",
     "idaVersions": ">=7.3",
